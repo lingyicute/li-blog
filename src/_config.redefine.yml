@@ -54,17 +54,17 @@ global:
     chinese: 
       enable: true
       family: Nebulove
-      url: https://raw.githubusercontent.com/lingyicute/Nebulove/main/Nebulove.css
+      url: /fonts/Nebulove.css
     # English fonts
     english: 
       enable: true
       family: Nebulove
-      url: https://raw.githubusercontent.com/lingyicute/Nebulove/main/Nebulove.css
+      url: ./Nebulove.css
     # Custom title fonts (navbar, sidebar)
     title:
       enable: true
       family: Nebulove
-      url: https://raw.githubusercontent.com/lingyicute/Nebulove/main/Nebulove.css
+      url: ./Nebulove.css
   # Content max width
   content_max_width: 1000px
   # Sidebar width
@@ -158,7 +158,7 @@ home_banner:
   custom_font: 
     enable: true
     family: Nebulove
-    url: https://raw.githubusercontent.com/lingyicute/Nebulove/main/Nebulove.css
+    url: ./Nebulove.css
   # Home banner social links
   social_links:
     # Whether to enable
