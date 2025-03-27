@@ -126,7 +126,7 @@ home_banner:
   # Home banner image
   image: 
     light: /images/wallhaven-wqery6-light.webp # light mode
-    dark: /images/wallhaven-wqery6-dark.webp # dark mode
+    dark: /images/wallhaven-wqery6-light.webp # dark mode
   # Home banner title
   title: Theme Redefine
   # Home banner subtitle
