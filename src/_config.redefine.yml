@@ -52,19 +52,19 @@ global:
   fonts:
     # Chinese fonts
     chinese: 
-      enable: false # Whether to enable custom chinese fonts
-      family:  # Font family
-      url:  # Font URL to CSS file
+      enable: true
+      family: Nebulove
+      url: https://raw.githubusercontent.com/lingyicute/Nebulove/main/Nebulove.css
     # English fonts
     english: 
-      enable: false # Whether to enable custom english fonts
-      family:  # Font family
-      url:  # Font URL to CSS file
+      enable: true
+      family: Nebulove
+      url: https://raw.githubusercontent.com/lingyicute/Nebulove/main/Nebulove.css
     # Custom title fonts (navbar, sidebar)
     title:
-      enable: false # Whether to enable custom title fonts
-      family:  # Font family
-      url:  # Font URL to CSS file
+      enable: true
+      family: Nebulove
+      url: https://raw.githubusercontent.com/lingyicute/Nebulove/main/Nebulove.css
   # Content max width
   content_max_width: 1000px
   # Sidebar width
@@ -156,12 +156,9 @@ home_banner:
     line_height: 1.2
   # Home banner custom font
   custom_font: 
-    # Whether to enable custom font
-    enable: false
-    # Font family
-    family: 
-    # URL to font CSS file
-    url:
+    enable: true
+    family: Nebulove
+    url: https://raw.githubusercontent.com/lingyicute/Nebulove/main/Nebulove.css
   # Home banner social links
   social_links:
     # Whether to enable
@@ -465,9 +462,9 @@ page_templates:
 # Docs: https://redefine-docs.ohevan.com/cdn
 cdn:
   # Whether to enable CDN
-  enable: true
+  enable: false
   # CDN Provider
-  provider: aliyun # npmmirror, zstatic, cdnjs, jsdelivr, unpkg, custom
+  provider: # npmmirror, zstatic, cdnjs, jsdelivr, unpkg, custom
   # Custom CDN URL
   # format example: https://cdn.custom.com/hexo-theme-redefine/${version}/source/${path}
   # The ${path} must leads to the root of the "source" folder of the theme
